@@ -1,0 +1,74 @@
+.icon-next, .icon-prev{
+    font-size: 100px;
+
+}
+
+.fill{
+        background-size: cover;
+}
+
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+
+    font-size: 100px;
+}}
+
+
+#carousel1 {
+    bottom: 38%;
+    left: 12%;
+    color: #083C4C;
+    width: 350px;
+}
+
+.arrowdown{
+    float: right;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 10px;
+    left: -90px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #5883A8;
+}
+
+.carouselh{
+    font-size: 60px;
+    font-weight: bold;
+}
+.carouselp{
+    font-size: 20px;
+    
+}
+
+#carousel2 {
+    bottom: 25%;
+    left: 67%;
+    color: #083C4C;
+    width: 380px;
+}
+
+
+
+#carousel3 {
+    bottom: 43%;
+    left: 6%;
+    color: #FFFFFF;
+    width: 445px;
+}
+
+.carousel-control.right{
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.2) 100%);
+}
+.carousel-control.left{
+    background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.2) 100%);
+}
+
+@media screen and (min-width: 768px){
+.carousel-control .icon-next {
+    margin-right: -50px;
+}
+.carousel-control .icon-prev {
+    margin-left: -50px;
+}}

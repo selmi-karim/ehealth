@@ -1,0 +1,11 @@
+.profil{
+    float: left;
+    font-size: 17px
+}
+
+form{
+    padding: 3px;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+

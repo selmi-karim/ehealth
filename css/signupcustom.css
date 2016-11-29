@@ -1,0 +1,94 @@
+body{
+    background: rgba(0, 0, 0, 0.07);
+}
+.logmod{
+    position: relative;
+    background-color: transparent;
+}
+
+.logmod__close {
+    background: url("../images/ehealth.png");
+    width: 250px;
+    background-size: cover;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+    margin-right: -125px;
+    top: -106px;
+    height: 83px;
+}
+
+.register {
+    height: 60px;
+    text-align: center;
+    background-color: rgb(217, 247, 240);
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sminputs .input {
+    height: 60px;
+}
+.sminputs .input input {
+    height: 30px;
+    top: -6px;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+.logmod__wrapper{
+    margin: 117px auto 0;
+
+}
+
+
+.footer{
+    background-color: #E70013;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 20px;
+    box-shadow: 0px 3px 17px 2px;
+    color: white;
+}
+
+#copyright{
+    position: relative;
+    top: 20%;
+    font-size: 15px;
+
+}
+
+#made {
+    float: right;
+    right: 10px;
+    position: relative;
+    font-size: 24px;
+    color: white;
+    bottom: 43px;
+}
+
+#made img {
+    height: 70px;
+    margin-left: 2px;
+    bottom: -27px;
+    position: relative;
+}
+#by {
+    float: right;
+    right: 8px;
+    position: relative;
+    font-size: 24px;
+    color: white;
+    bottom: 63px;
+}
+
+#by img {
+    height: 90px;
+    margin-left: -9px;
+    bottom: -45px;
+    position: relative;
+}

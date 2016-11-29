@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Inscription - eHealth</title>
+
+
+        <link rel="stylesheet" href="../css/normalize.css">
+
+        <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+        
+        <link rel="stylesheet" href="../css/signup.css">
+        <link rel="stylesheet" href="../css/signupcustom.css">
+
+
+
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div class="logmod">
+                <div class="logmod__wrapper">
+                    <a href="index.html"><span class="logmod__close">
+                            <!--Cette classe contient le logo-->
+                        </span></a>
+                    <div class="logmod__container">
+                        <div class="register">Inscription</div>
+                        <div class="logmod__tab-wrapper">
+                            <div class="logmod__tab lgm-1 show">
+                                
+                                <div class="logmod__form">
+                                    <!--Debut du formulaire-->
+                                    <form accept-charset="utf-8" id='redirection' method="Post" class="simform">
+                                        <!--Nom et Prenom-->
+                                        <div class="sminputs">
+                                            <div class="input ">
+                                                <label class="string optional" for="user-name" >Nom et Prénom*</label>
+                                                <input class="string optional" maxlength="255" id="username" name="username"  placeholder="Nom et Prénom" type="text" size="50"  onchange="verifNom()"/>
+                                            </div>
+
+                                            <!--Email-->
+                                            <div class="input ">
+                                                <label class="string optional" for="email">Email*</label>
+                                                <input class="string optional" maxlength="255" id="email" name="email" placeholder="Email" type="email" size="50" onchange="verifEmail()"/>
+                                            </div>
+                                        </div>
+                                        <!--Adresse-->
+                                        <div class="sminputs">
+                                            <div class="input full">
+                                                <label class="string optional" for="address">Adresse*</label>
+                                                <input class="string optional" maxlength="255" id="address" name="address" placeholder="Adresse" type="text" size="50" onchange="verifAdresse()" />
+                                            </div>
+                                        </div>
+                                        <!--Telephone-->
+                                        <div class="sminputs">
+                                            <div class="input ">
+                                                <label class="string optional" for="phone">Telephone*</label>
+                                                <input class="string optional" maxlength="255" id="phone" name="phone" placeholder="Telephone" type="tel" size="50" onchange="verifPhone()" />
+                                            </div>
+                                            <!--Specialite-->
+                                            <div class="input ">
+                                                <label class="string optional" for="specialty">Spécialité*</label>
+                                                <input class="string optional" maxlength="255" id="specialty" name="specialty" placeholder="Spécialité" type="text" size="50" onchange="verifSpecialty()"/>
+                                            </div>
+                                        </div>
+                                        <!--Mot de passe-->
+                                        <div class="sminputs">
+                                            <div class="input string optional">
+                                                <label class="string optional" for="userpw">Mot de passe*</label>
+                                                <input class="string optional" maxlength="255" id="userpw" name="userpw" placeholder="Mot De Passe" type="password" size="50" onchange="verifPassword()" />
+                                            </div>
+                                            <div class="input string optional">
+                                                <label class="string optional" for="user-pw-repeat">Confirmer le mot de passe*</label>
+                                                <input class="string optional" maxlength="255" id="userpwrepeat"  placeholder="Repeat password" type="password" size="50" onblur="verifPasswordRepeat()"/>
+                                            </div>
+                                        </div>
+                                        <div class="simform__actions">
+                                            <input class="sumbit"  name="commit" type="submit" value="S'inscrire" onclick="verifInscription();return(verifInscription())"/>
+                                            <span class="simform__actions-sidetext">En s'inscrivant vous acceptez nos <a class="special" href="#" target="_blank" role="link">Conditions d'utilisation</a></span>
+                                        </div> 
+                                    </form>
+                                </div> 
+								 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <span id="copyright">&copy; TeamOne.engineer 2015</span>
+
+                <span id="by">by<img src="../images/teamone.png"/></span>
+                <span id="made">Made in<img src="../images/tunisia.png"/></span>
+            </div>
+
+        </div>
+
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="../js/signup.js"></script>
+        <script src="../js/controlSignUp.js"></script>
+    </body>
+</html>

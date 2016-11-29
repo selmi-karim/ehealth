@@ -1,0 +1,197 @@
+
+.oordonnance{
+    border: 3px black solid;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    padding-bottom: 45px;
+    min-height: 90%;
+    border-radius: 20px;
+}
+
+.historique {
+    background-color: #DDE5EA;
+    border-radius: 23px;
+    min-height: 100px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.historique h2{
+    margin-left: 80px;
+}
+
+.date{
+    float: right;
+    padding: 15px 0 10px 16%;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+tr{
+    border-bottom: 2px solid; 
+
+}
+
+
+.annuler {
+    background-image: url("../images/annuler.png");
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    padding: 10px 10px 10px 43px;
+}
+.enregistrer {
+    background-image: url("../images/enregistrer.png");
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    padding: 10px 10px 10px 43px;
+}
+.imprimer {
+    background-image: url("../images/imprimer.png");
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    padding: 10px 10px 10px 43px;
+}
+
+.addingbuttons{
+    margin: 8px 0 2px 0;
+    text-align: center;
+}
+.finalisingbuttons{
+    margin:10px;
+    text-align: center;
+}
+
+.btn{
+    margin: 0 10px 0 10px;
+    font-size: 18px;
+}
+
+.note {
+    background-image: url("../images/note.png");
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    padding: 10px 10px 10px 43px;
+}
+
+.done {
+    background-image: url("../images/done.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    height: 30px;
+    width: 30px;
+    left: 11px;
+    position: relative;
+    float: right;
+    margin-top: -48px;
+    margin-bottom: 5px;
+    z-index: 1111;
+}
+
+.noteinput {
+    background-image: url("../images/note.png");
+    background-color: rgb(216, 249, 255);
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    width: 100%;
+    margin-left: 4%;
+    border-radius: 15px;
+    padding: 10px 10px 10px 43px;
+    border: none;
+}
+.medicamentinput {
+    background-image: url(../images/pill.png);
+    background-color: rgb(216, 249, 255);
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    width: 100%;
+    margin-left: 4%;
+    border-radius: 15px;
+    padding: 10px 35px 10px 44px;
+    border: none;
+}
+.medicament {
+    background-image: url("../images/pill.png");
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    padding: 10px 35px 10px 44px;
+}
+.edit {
+    background-image: url("../images/edit.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+.remove {
+    background-image: url("../images/remove.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:768px){
+
+}
+
+
+tr:last-of-type {
+    border-bottom: none ;
+}
+
+.patientname{
+    padding: 10px 0 10px 44px;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ordcontent{
+    position: relative;
+    border: 3px black solid;
+    margin: auto;
+    width: 90%;
+    min-height: 35%;
+    border-radius: 20px;
+}
+table{
+    margin: 0px;
+    width:100%
+}
+
+.oordonnance h3, h4, h5{
+    color: blue !important;
+}
+
+.medinfo{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .oordonnance {
+        width: 100%; 
+
+    }
+}
+
+
+td p{
+        float: left;
+    margin: 0px 0px 19px 9px;
+
+}
