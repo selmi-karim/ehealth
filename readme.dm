@@ -1,2 +1,1 @@
-dossier medecal informatisé
-
+dossier médical informatise
